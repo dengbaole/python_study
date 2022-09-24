@@ -41,3 +41,8 @@ print(favorite_language.strip())
 #整数运算
 print(2**3)  #2三次方
 print(2*3)
+
+#生成
+fp=open('D:/test.txt','a+')
+print('helloworld',file=fp)
+fp.close()
